@@ -7,11 +7,16 @@ all datasets are: {'Cora', 'Citeseer', 'Pubmed','ogbn-arxiv' , 'reddit','ogbn-pr
 
 So for different datasets please run this commands:
 
-cora          : python3 S3GC.py cora
+cora          : ./python3 S3GC.py cora
+
 citeseer      : ./python3 S3GC.py citeseer
+
 pubmed        : ./python3 S3GC.py pubmed
+
 ogbn-arxiv    : ./python3 S3GC.py ogbn-arxiv
+
 reddit        : ./python3 S3GC.py reddit
+
 ogbn-products : ./python3 S3GC.py ogbn-products
 
 DataSet:
