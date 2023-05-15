@@ -272,7 +272,7 @@ def main():
     plt.title(f'S3GC: Performance Metrichs ({dataset_name}: Valid)')
     plot_name = f'S3GC_{dataset_name}_Valid.png'
     if save_plots:
-        plt.savefig('../plots/'+plot_name)
+        plt.savefig('./plots/'+plot_name)
     # plt.show()
 
     fig, ax = plt.subplots(figsize=(6,4))
@@ -289,7 +289,7 @@ def main():
     plt.title(f'S3GC: Performance Metrichs ({dataset_name}: Train)')
     plot_name = f'S3GC_{dataset_name}_Train.png'
     if save_plots:
-        plt.savefig('../plots/'+plot_name)
+        plt.savefig('./plots/'+plot_name)
     # plt.show()
 
 
